@@ -1,36 +1,36 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
-  "/",
-  { text: "Demo", icon: "discover", link: "/demo/" },
+  "/en/",
+  { text: "演示", icon: "discover", link: "/en/demo/" },
   {
-    text: "Posts",
+    text: "博文",
     icon: "edit",
-    prefix: "/posts/",
+    prefix: "/en/posts/",
     children: [
       {
-        text: "Apple",
+        text: "苹果",
         icon: "edit",
         prefix: "apple/",
         children: [
-          { text: "Apple1", icon: "edit", link: "1" },
-          { text: "Apple2", icon: "edit", link: "2" },
+          { text: "苹果1", icon: "edit", link: "1" },
+          { text: "苹果2", icon: "edit", link: "2" },
           "3",
           "4",
         ],
       },
       {
-        text: "Banana",
+        text: "香蕉",
         icon: "edit",
         prefix: "banana/",
         children: [
           {
-            text: "Banana 1",
+            text: "香蕉 1",
             icon: "edit",
             link: "1",
           },
           {
-            text: "Banana 2",
+            text: "香蕉 2",
             icon: "edit",
             link: "2",
           },
@@ -38,15 +38,15 @@ export const enNavbar = navbar([
           "4",
         ],
       },
-      { text: "Cherry", icon: "edit", link: "cherry" },
-      { text: "Dragonfruit", icon: "edit", link: "dragonfruit" },
+      { text: "樱桃", icon: "edit", link: "cherry" },
+      { text: "火龙果", icon: "edit", link: "dragonfruit" },
       "tomato",
       "strawberry",
     ],
   },
   {
-    text: "V2 Docs",
+    text: "V2 文档",
     icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/",
+    link: "https://vuepress-theme-hope.github.io/v2/zh/",
   },
 ]);

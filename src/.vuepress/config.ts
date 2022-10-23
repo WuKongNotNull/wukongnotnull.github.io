@@ -5,19 +5,19 @@ export default defineUserConfig({
   base: "/",
 
   locales: {
-    "/": {
+    "/en/": {
       lang: "en-US",
-      title: "Blog Demo",
+      title: "WuKongNotNull",
       description: "A blog demo for vuepress-theme-hope",
     },
-    "/zh/": {
+    "/": {
       lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "悟空非空也",
+      description: "一个非同凡响的博客，包含html,css,javascript,vue,java,go,linux,c,c++,php,shell等众多语言",
     },
   },
 
   theme,
 
-  shouldPrefetch: false,
+  shouldPrefetch: false, // 允许预先载入
 });
