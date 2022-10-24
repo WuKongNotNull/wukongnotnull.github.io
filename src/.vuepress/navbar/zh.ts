@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",//首页
-  {
+  /*{
     text: "博客",
     icon: "discover",
     prefix: "/blog/",
@@ -28,7 +28,7 @@ export const zhNavbar = navbar([
         link: "https://github.com/WuKongNotNull/awesome-free-vpn"
       },
     ]
-  },
+  },*/
   /*
   {
     text: "编程导航",
