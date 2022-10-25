@@ -89,6 +89,7 @@ export default hopeTheme({
         },
 
         /**
+         * 中文本地化配置
          * Chinese locale config
          */
         "/": {
