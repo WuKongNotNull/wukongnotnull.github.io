@@ -39,7 +39,7 @@ export const zhNavbar = navbar([
     {
         text: "Go",
         icon: "edit",
-        link: "https:/nav-code.com"
+        link: "https://wukongnotnull.feishu.cn/wiki/space/7156030432012877826"
     },
     {
         text: "Java",
