@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5f1bf1c2-4aaf-4bea-ae6c-cabadbf63019" name="阿里云-hope" url="http://wh-abeggqp9njg70fxc4h0.my3w.com">
+        <fileTransfer rootFolder="/htdocs" host="wh-abeggqp9njg70fxc4h0.my3w.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
