@@ -44,7 +44,7 @@ projects:
     link: https://wukongnotnull.feishu.cn/wiki/space/7156606223557656580
 
   - icon: link
-    name: JavScript
+    name: JavaScript
     desc: 前端开发者的必学语言
     link: https://wukongnotnull.feishu.cn/wiki/space/7040766992365682716
 
@@ -71,7 +71,8 @@ projects:
 
   
 
-footer: 通过资源编号，获得配套资源<br><a href="https://www.feishu.cn/invitation/page/add_contact/?token=3eet161b-45d7-4c15-8de9-a6fa6d488aa0&amp;unique_id=SVS2S4dYs-pXA1IGIWRijg==">加我飞书，联系我</a>
+footer: 通过资源编号，获得配套资源<div><a href="https://www.feishu.cn/invitation/page/add_contact/?token=3eet161b-45d7-4c15-8de9-a6fa6d488aa0&amp;unique_id=SVS2S4dYs-pXA1IGIWRijg==">加我飞书，联系我</a></div><div style="width:300px;margin:0 auto; padding:20px 0;"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32011302321207" style="display:inline-block;text-decoration:none;height:10px;line-height:10px;"><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7ier5oao2j300k00k0mz.jpg" style="float:left;width:13px;line-height:13px"/><p style="float:left;height:10px;line-height:10px;margin:0px 0px 0px 5px;color:#939393;">苏公网安备 32011302321207号</p></a></div>
+		 
 ---
 
 

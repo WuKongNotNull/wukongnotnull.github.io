@@ -243,7 +243,7 @@ export const zhNavbar = navbar([
             {
                 text: "数据结构与算法",
                 icon: "discover",
-                link: "#"
+                link: "https://wukongnotnull.feishu.cn/wiki/space/7158624612123787268"
             },
             /* {
                text: "好物分享",
