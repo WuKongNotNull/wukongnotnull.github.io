@@ -4,15 +4,16 @@
 
 欢迎来到这里，相约在我的个人博客，在你技术成长的道路上，彼此遇见，彼此成长。
 
-## 博客网站预览
-![blog-header](https://tva1.sinaimg.cn/large/008vxvgGgy1h7hxtvhjr1j31gu0u0do2.jpg)
 
 ## 访问链接
-Githut Page 版
+Github Page 版（海外）
 https://wukongnotnull.github.io/
 
-个人专属域名版
+个人专属域名版（中国）
 https://wukongnotnull.com
+
+## 博客网站预览
+![blog-header](https://tva1.sinaimg.cn/large/008vxvgGgy1h7hxtvhjr1j31gu0u0do2.jpg)
 
 
 ## 涉及语言和框架
