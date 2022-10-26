@@ -1,0 +1,50 @@
+---
+home: true
+layout: Blog
+icon: home
+title: Home
+heroImage: /logo.svg
+heroText: 𝓜𝓻. 𝓗𝓸𝓹𝓮
+heroFullScreen: true
+tagline: Where there is light, there is hope
+projects:
+  - name: vuepress
+    desc: Vue-powered Static Site Generator
+    link: https://v2.vuepress.vuejs.org/
+    icon: /assets/img/vuepress.png
+
+  - name: vuepress-theme-hope
+    desc: A vuepress theme with tons of features✨
+    link: https://vuepress-theme-hope.github.io/
+    icon: /assets/img/vuepress-hope-logo.svg
+
+  - name: Waline
+    desc: A safe and fast comment service
+    link: https://waline.js.org/en/
+    icon: https://waline.js.org/logo.png
+
+  - name: in NENU
+    desc: 570,000+ words NENU guide, a comprehensive introduction to NENU life, the best admission guide for NENU freshmen❤
+    link: https://github.com/Hope-Studio/inNENU-miniapp
+    icon: /assets/img/inNENU.png
+
+  - name: vuepress-plugin-md-enhance
+    desc: VuePress Markdown Enhance plugin
+    link: https://vuepress-theme-hope.github.io/v2/md-enhance/
+    icon: /assets/img/vuepress-hope-logo.svg
+
+  - name: "bycrypt-ts"
+    icon: project
+    desc: Bycrypt written in typescript
+    link: https://github.com/Mister-Hope/bcrypt-ts
+
+  - name: "@mr-hope/gulp-sass"
+    type: project
+    desc: Sass Plugin for Gulp
+    link: https://github.com/Mister-Hope/gulp-sass
+
+  - name: mptool
+    desc: Light, effective miniapp framwork
+    link: https://github.com/miniapp-tool/mptool
+    icon: https://miniapp-tool.github.io/logo.png
+---

@@ -1,0 +1,58 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "type": "module",
+  "scripts": {
+    "build:vite": "vuepress-vite build src",
+    "build:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite build src",
+    "build:webpack": "vuepress-webpack build src",
+    "build:webpack-debug": "cross-env DEBUG=vuepress* vuepress-webpack build src",
+    "dev:vite": "vuepress-vite dev src",
+    "dev:vite-clean": "vuepress-vite dev src --clean-cache",
+    "dev:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite dev src",
+    "dev:webpack": "vuepress-webpack dev src",
+    "dev:webpack-clean": "vuepress-webpack dev src --clean-cache",
+    "dev:webpack-debug": "cross-env DEBUG=vuepress* vuepress-webpack dev src",
+    "lint": "prettier --check --write .",
+    "lint:check": "prettier --check .",
+    "lint-md": "markdownlint **/*.md --ignore node_modules --fix",
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "author": "Mr.Hope",
+  "license": "MIT",
+  "keywords": [
+    "vuepress",
+    "personal-blog"
+  ],
+  "dependencies": {
+    "@vuepress/cli": "2.0.0-beta.51",
+    "@vuepress/client": "2.0.0-beta.51",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.51",
+    "giscus": "^1.2.0",
+    "pnpm": "^7.13.6",
+    "sass-loader": "13.1.0",
+    "vue": "3.2.40",
+    "vuepress-theme-hope": "2.0.0-beta.110",
+    "vuepress-vite": "2.0.0-beta.51",
+    "vuepress-webpack": "2.0.0-beta.51"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "markdownlint-cli": "0.32.2",
+    "prettier": "2.7.1",
+    "vuepress-plugin-comment2": "2.0.0-beta.115"
+  },
+  "packageManager": "pnpm@7.13.4",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "@types/react",
+        "react",
+        "react-dom",
+        "webpack"
+      ]
+    }
+  }
+}
