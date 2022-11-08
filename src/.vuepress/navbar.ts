@@ -287,7 +287,7 @@ export const zhNavbarConfig = navbar([
                     {
                         text: "Git",
                         icon: "edit",
-                        link: "#",
+                        link: "https://wukongnotnull.feishu.cn/wiki/space/7163566026049732612",
                     },
                     /* {
                        text: "MyBatis Plus",
