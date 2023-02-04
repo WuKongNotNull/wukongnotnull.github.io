@@ -6,17 +6,43 @@
     <link>https://wukongnotnull.com/</link>
     <description>一个非同凡响的博客，集html,css,javascript,vue,java,go,linux,c,c++,Python等众多语言大成，碎片化博客 + 飞书知识库 + 云盘海量资源三种形式加持，强烈打造全网最权威的热门技术资源</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 25 Jan 2023 04:40:00 GMT</pubDate>
-    <lastBuildDate>Wed, 25 Jan 2023 04:40:00 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Feb 2023 04:05:00 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Feb 2023 04:05:00 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Java</category>
+    <category>Java 常见问题</category>
     <category>前端</category>
     <category>编程导航</category>
-    <category>Java</category>
     <category>好物分享</category>
     <category>博客</category>
     <category>插件</category>
     <category>面试</category>
+    <item>
+      <title>Mac上如何彻底卸载jdk</title>
+      <link>https://wukongnotnull.com/posts/javaproblem/1.html</link>
+      <guid>https://wukongnotnull.com/posts/javaproblem/1.html</guid>
+      <source url="https://wukongnotnull.com/rss.xml">Mac上如何彻底卸载jdk</source>
+      <category>Java</category>
+      <category>Java 常见问题</category>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="mac上如何彻底卸载jdk" tabindex="-1"> Mac上如何彻底卸载jdk</h1>
+<p>1、删除运行路径和运行环境</p>
+<div><pre><code>
+sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p>输入密码，回车，继续</p>
+<div><pre><code>sudo rm -fr /Library/PreferencesPanes/JavaControlPanel.prefPane
+sudo rm -fr ~/Library/Application\ Support/Java
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p>2、查看当前jdk版本</p>
+<div><pre><code>java -version
+</code></pre><div aria-hidden="true"><div></div></div></div><p>3、查看jdk路径</p>
+<div><pre><code>/usr/libexec/java_home -V
+</code></pre><div aria-hidden="true"><div></div></div></div><p>4、删除当前版本的jdk，注意检查版本号是不是当前想要删除的版本</p>
+<div><pre><code>sudo rm -rf /Library/Java/JavaVirtualMachines/jdk-8.0.5.jdk
+</code></pre><div aria-hidden="true"><div></div></div></div><p>5、查看jdk是否卸载完毕</p>
+<div><pre><code>java -version
+</code></pre><div aria-hidden="true"><div></div></div></div>]]></content:encoded>
+    </item>
     <item>
       <title>前端文档和技术汇总</title>
       <link>https://wukongnotnull.com/posts/goodshare/1.html</link>

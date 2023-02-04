@@ -6,6 +6,19 @@
   "description": "一个非同凡响的博客，集html,css,javascript,vue,java,go,linux,c,c++,Python等众多语言大成，碎片化博客 + 飞书知识库 + 云盘海量资源三种形式加持，强烈打造全网最权威的热门技术资源",
   "items": [
     {
+      "title": "Mac上如何彻底卸载jdk",
+      "url": "https://wukongnotnull.com/posts/javaproblem/1.html",
+      "id": "https://wukongnotnull.com/posts/javaproblem/1.html",
+      "content_html": "<h1 id=\"mac上如何彻底卸载jdk\" tabindex=\"-1\"> Mac上如何彻底卸载jdk</h1>\n<p>1、删除运行路径和运行环境</p>\n<div><pre><code>\nsudo rm -fr /Library/Internet\\ Plug-Ins/JavaAppletPlugin.plugin\n</code></pre><div aria-hidden=\"true\"><div></div><div></div></div></div><p>输入密码，回车，继续</p>\n<div><pre><code>sudo rm -fr /Library/PreferencesPanes/JavaControlPanel.prefPane\nsudo rm -fr ~/Library/Application\\ Support/Java\n</code></pre><div aria-hidden=\"true\"><div></div><div></div></div></div><p>2、查看当前jdk版本</p>\n<div><pre><code>java -version\n</code></pre><div aria-hidden=\"true\"><div></div></div></div><p>3、查看jdk路径</p>\n<div><pre><code>/usr/libexec/java_home -V\n</code></pre><div aria-hidden=\"true\"><div></div></div></div><p>4、删除当前版本的jdk，注意检查版本号是不是当前想要删除的版本</p>\n<div><pre><code>sudo rm -rf /Library/Java/JavaVirtualMachines/jdk-8.0.5.jdk\n</code></pre><div aria-hidden=\"true\"><div></div></div></div><p>5、查看jdk是否卸载完毕</p>\n<div><pre><code>java -version\n</code></pre><div aria-hidden=\"true\"><div></div></div></div>",
+      "date_published": "2023-01-25T00:00:00.000Z",
+      "date_modified": "2023-02-04T04:02:36.000Z",
+      "authors": [],
+      "tags": [
+        "Java",
+        "Java 常见问题"
+      ]
+    },
+    {
       "title": "前端文档和技术汇总",
       "url": "https://wukongnotnull.com/posts/goodshare/1.html",
       "id": "https://wukongnotnull.com/posts/goodshare/1.html",
